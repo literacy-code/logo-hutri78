@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+
+.wrapper {
+  width: 310px;
+  position: relative;
+  height: 420px;
+  /* background-color: blue; */
+  margin: 0 auto;
+}
+
+.tujuh1 {
+  width: 180px;
+  height: 40px;
+  background: red;
+  transform: skewX(-30deg);
+  position: absolute;
+  top: 150px;
+  left: 30px;
+}
+
+.tujuh2 {
+  width: 50px;
+  height: 220px;
+  background: red;
+  transform: skewX(-30deg);
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+.delapan1 {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 85px;
+  left: 180px;
+  box-shadow: 0 0 0 5px red, 0 0 0 10px white, 0 0 0 15px red, 0 0 0 20px white,
+    0 0 0 25px red, 0 0 0 30px white, 0 0 0 35px red, 0 0 0 40px white,
+    0 0 0 45px red;
+}
+
+.delapan2 {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 190px;
+  left: 180px;
+  box-shadow: 0 0 0 5px red, 0 0 0 10px white, 0 0 0 15px red, 0 0 0 20px white,
+    0 0 0 25px red, 0 0 0 30px white, 0 0 0 35px red, 0 0 0 40px white,
+    0 0 0 45px red;
+}
+
+.clip1 {
+  /* background: blue; */
+  width: 75px;
+  height: 150px;
+  position: absolute;
+  top: 40px;
+  left: 135px;
+  overflow: hidden;
+}
+
+.clip1 .delapan1 {
+  top: 45px;
+  left: 45px;
+}
+
+.clip2 {
+  /* background: blue; */
+  width: 75px;
+  height: 150px;
+  position: absolute;
+  top: 145px;
+  left: 210px;
+  overflow: hidden;
+}
+
+.clip2 .delapan2 {
+  top: 45px;
+  left: -30px;
+}
+
+.kata {
+  position: absolute;
+  top: 70px;
+  left: 320px;
+  font-size: 30px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+  color: black;
+}
